@@ -6,6 +6,7 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 
 collections:
+
   - name: "posts"
     label: "Posts"
     folder: "posts"
@@ -16,3 +17,12 @@ collections:
       - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  -name: "projects"
+    label: "Projects"
+    folder: "projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
