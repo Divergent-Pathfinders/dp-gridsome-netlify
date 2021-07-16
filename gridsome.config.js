@@ -11,14 +11,21 @@ module.exports = {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link'
-    }
+    },
   },
   plugins: [
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'posts/*.md',
+        path: 'content/posts/*.md',
         typeName: 'Post'
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'content/pages/*.yml',
+        typeName: 'yaml'
       }
     },
     {

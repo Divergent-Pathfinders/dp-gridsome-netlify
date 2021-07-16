@@ -32,6 +32,8 @@ collections:
     files:
       - label: "Index page"
         name: "index"
-        file: "content/pages/about.yml"
+        file: "content/pages/index.yml"
         fields: 
           - {label: Title, name: title, widget: string}
+          - {label: Strapline, name: strapline, widget: string}
+          - {label: Explainer, name: explainer, widget: string}
