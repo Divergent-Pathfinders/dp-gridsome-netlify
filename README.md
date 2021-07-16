@@ -1,14 +1,7 @@
-# Default starter for Gridsome
+# Divergent Pathdfinders - Gridsome and NetlifyCMS website
 
-This is the project you get when you run `gridsome create new-project`.
+Uses Gridsome static site builder, Netlify CMS for content and Bootstrap-Vue for frontend.
 
-### 1. Install Gridsome CLI tool if you don't have
+## Platform
 
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+This is designed and tested to work on Netlify's own service. It uses a number of their different features, though the bulk of it will work elsewhere with some adaption or third-party stuff built in.
