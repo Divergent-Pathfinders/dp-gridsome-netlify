@@ -26,3 +26,15 @@ export default {
   }
 }
 </script>
+
+<script>
+import pageData from '~/data/pages/index.yml'
+
+export default {
+  data () {
+    return {
+      pageData
+    }
+  }
+}
+</script>
