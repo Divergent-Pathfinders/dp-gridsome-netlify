@@ -7,13 +7,17 @@
     "build": "gridsome build"
   },
   "dependencies": {
+    "2": "^3.0.0",
+    "4": "^0.0.0",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
-    "bootstrap": "^5.0.2",
+    "bootstrap": "4.*",
     "bootstrap-vue": "^2.21.2",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.10.147",
-    "vie": "^2.1.2"
+    "popper.js": "^1.16.1",
+    "portal-vue": "^2.1.7",
+    "vue": "^2.6.14"
   }
 }
