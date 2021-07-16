@@ -2,8 +2,8 @@
   <Layout>
 
 <div>
-  <b-jumbotron :header="$static.metadata.siteName" lead="Bootstrap v4 Components for Vue.js 2">
-    <p>Welcome to {{ $static.metadata.siteName }}</p>
+  <b-jumbotron :header="pageData.title" :lead="pageData.strapline">
+    <p>{{ pageData.explainer }} </p>
     <b-button variant="primary" href="#">More Info</b-button>
   </b-jumbotron>
 </div>
